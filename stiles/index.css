@@ -1,84 +1,196 @@
-header{
-    min-height: 500px;
-    position: relative;
-    overflow: hidden;
-    padding: 40px 165px 65px 165px;
+header {
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+  padding: 40px 165px 65px 165px;
 
-    .circle{
-        position: absolute;
-        top: -172px;
-        right:-140px ;
-        z-index: -1;
-    }
- 
-    .nav-div{
+  .circle {
+    position: absolute;
+    top: -172px;
+    right: -140px;
+    z-index: -1;
+  }
+
+  .nav-div {
     display: flex;
     align-items: center;
     gap: 64px;
 
-ul{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-}
-
-
-.nav-btn{
-margin-left: auto;
-}
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 40px;
     }
 
+    .nav-btn {
+      margin-left: auto;
+    }
+  }
 
-    .header-content{
-        min-height: 200px;
-        margin-top: 74px;
+  .header-content {
+    min-height: 200px;
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 95px;
+
+    .header-content-left {
+      min-width: 50px;
+
+      .search {
+        width: 445px;
+        background-color: var(--white);
         display: flex;
         justify-content: space-between;
-        padding-right: 95px;
-        
-        
+        border-radius: 24px;
+        padding-left: 27px;
+        margin-top: 21px;
 
-        .header-content-left{
-            min-width: 50px;
-            
-
-
-            .search{
-             width: 445px;
-             background-color: var(--white);
-             display: flex;
-             justify-content: space-between;
-             border-radius: 24px;
-             padding-left: 27px;
-             margin-top: 21px;
-
-             input{
-                border: none;
-                outline: none;
-             }
-            }
-            p{
-                padding-left: 27px;
-                margin-top: 16px;
-                
-                span{
-                    font-weight: 700;
-                }
-            }
+        input {
+          border: none;
+          outline: none;
         }
+      }
+      p {
+        padding-left: 27px;
+        margin-top: 16px;
 
-        .header-content-right{
-            min-width: 50px;
-            background-color: cornflowerblue;
-            width: 263px;
-            height: 500px;
-            background-color: var(--black);
-            border-radius: 24px;
+        span {
+          font-weight: 700;
         }
+      }
     }
 
+    .header-content-right {
+      /* background-color: cornflowerblue; */
+      width: 263px;
+      height: 500px;
+      /* background-color: var(--black); */
+      border-radius: 24px;
+      background-image: url(../assets/home/desktop/illustration-phone-mockup.svg);
+      background-position: center;
+      background-size: 134%;
+      background-repeat: no-repeat;
+      background-position: top;
+    }
+  }
 }
 
+.main-circle {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
+main {
+  position: relative;
+  overflow: hidden;
+}
 
+.partners-section {
+  min-height: 200px;
+  background-color: var(--black);
+  padding: 100px 165px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
 
+  .circle_2 {
+    position: absolute;
+    left: -235px;
+    top: -350px;
+  }
 
+  .partners-info {
+    position: relative;
+    z-index: 1;
+    min-width: 50px;
+    min-height: 50px;
+
+    h2 {
+      color: var(--white);
+    }
+
+    p {
+      max-width: 445px;
+      margin-top: 24px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .partners-logos {
+    max-width: 536px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    gap: 46px;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.main-section {
+  min-height: 500px;
+  padding: 143px 165px 93px 165px;
+
+  .implements {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .imp-left {
+      height: 284px;
+      width: 445px;
+      /* background-color: var(--black); */
+      background-image: url(../assets/home/desktop/illustration-easy-to-implement.svg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .imp-right {
+      /* background-color: aqua; */
+
+      p {
+        max-width: 445px;
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .ui-ix {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    position: relative;
+
+    .ui-ix-left {
+      p {
+        max-width: 445px;
+        margin-top: 24px;
+      }
+    }
+    .ui-ix-right {
+      display: flex;
+      gap: 40px;
+
+      img {
+        border-radius: 35px;
+      }
+    }
+  }
+}
+.main-circle {
+  position: absolute;
+  z-index: -1;
+  top: 915px;
+  right: -390px;
+  
+}
