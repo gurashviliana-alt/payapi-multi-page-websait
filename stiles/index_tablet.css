@@ -1,0 +1,168 @@
+@media (max-width:992px){
+
+  header{
+    padding: 40px 40px 100px 40px;
+    
+
+  }  
+  .circle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 949px;
+    height: 949px;
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-position: center;
+    background-size: cover;
+
+    img {
+      display: none;
+    }
+  }
+
+  .header-content{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-right: 0 !important;
+    
+
+
+  }
+
+  .header-content-left{
+    justify-content: center;
+
+    h1{
+        text-align: center;
+        width: 550px;
+        font-size: 48px;
+        font-weight: 400;
+        
+        
+
+    }
+    .search {
+        justify-self: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+   .search{
+    justify-self: center;
+   }
+  
+   br{
+    display: none;
+   }
+    
+  }
+  
+  .header-content-right {
+    margin-left: 50px;
+}
+
+.partners-section{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    .partners-logos{
+       margin-bottom: 64px;
+    }
+
+    .partners-info{
+        p{
+            color: #FBFCFE;
+        }
+    }
+    .circle_2 {
+        position: absolute;
+        top: -20% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+      }
+
+
+}
+
+.main-section{
+    padding-left: 39px;
+    padding-right: 39px;
+
+}
+.implements{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+    .imp-right {
+        p {
+            max-width: 573px !important;
+        }
+    }
+    .imp-left{
+        margin-left:50px ;
+    }
+    
+
+}
+
+.ui-ix{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+
+    .ui-ix-left{
+        max-width: 573px !important;
+        margin-top: 48px;
+        h2{
+          font-weight: 400;  
+          font-size: 48px;
+        }
+        p{
+         font-weight: 400;  
+        font-size: 15px;
+        }
+    }
+}
+
+.cards-section{
+   padding: 0 39.5px 100px 39.5px;
+     
+    .card{
+     justify-content: center;
+     max-width: 223px;
+       
+       p{
+        max-width: 223px;
+       }
+    }
+}
+
+.main-circle{
+    display: none;
+}
+
+.readyTorstart{
+    flex-direction: column;
+    h2{
+        margin-bottom: 40px;
+
+    }
+}
+
+footer{
+    padding: 31px 40px;
+}
+
+
+
+}
+
+
